@@ -1,0 +1,34 @@
+h2{
+    color: greenyellow;
+    /**margin: 100px;*/
+    margin-left: 500px;
+    margin-right: 500px;
+    background: #4147;
+}
+p{
+    color: red;
+}
+#uno{
+    color: blueviolet;
+    font-size: 32px;
+}
+.class1{
+    color: crimson;
+}
+.fondo{
+    background: rgb(15, 36, 82);
+}
+nav{
+    background: rgba(24, 180, 185, 0.467);
+    padding: 20px;
+    font-size: 32px;
+}
+.col{
+    background: #ff8a5c;
+    padding: 30px;
+    width: 25%;
+    margin: 20px;
+}
+.padre{
+    display: flex;
+}

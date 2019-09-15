@@ -1,0 +1,54 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.sec{
+    margin: 0 auto;
+    width: 90%;
+}
+h2{
+    font-weight: 700;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.enlinea{
+    text-align: center;
+}
+.precio{
+    font-size: 40;
+    color: darkgreen;
+}
+.col{
+    background: rgba(10, 207, 214, 0.438);
+    color:  darkred;
+    border: 1px solid darkred;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 5px rgba(10, 207, 214, 0.788);
+    width: 22%;
+    box-sizing: border-box;
+}
+.ancla{
+    background: rgba(250, 128, 114, 0.781);
+    display: block;
+    border-radius: 35px;
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.ancla:hover{
+    background: rgb(250, 118, 103);
+}
+@media(max-width: 1070px){
+    .col{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 600px){
+    .col{
+        width: 90%;
+    }
+}
